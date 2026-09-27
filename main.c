@@ -1,7 +1,10 @@
 #include <stdio.h>
 
 int main(){
-    printf("Hello world\n");
+
+    char *word = "                            "
+
+    printf("%s Hello world\n",word);
 
     return 0;
 }
